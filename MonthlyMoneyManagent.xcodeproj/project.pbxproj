@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F79DB73F24845C1800AAAF95 /* MonthlyMoneyManagent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonthlyMoneyManagent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79DB73F24845C1800AAAF95 /* MMM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79DB74224845C1800AAAF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79DB74424845C1800AAAF95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F79DB74724845C1800AAAF95 /* MonthlyMoneyManagent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonthlyMoneyManagent.xcdatamodel; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		F79DB74024845C1800AAAF95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F79DB73F24845C1800AAAF95 /* MonthlyMoneyManagent.app */,
+				F79DB73F24845C1800AAAF95 /* MMM.app */,
 				F79DB75824845C1E00AAAF95 /* MonthlyMoneyManagentTests.xctest */,
 				F79DB76324845C1E00AAAF95 /* MonthlyMoneyManagentUITests.xctest */,
 			);
@@ -156,7 +156,7 @@
 			);
 			name = MonthlyMoneyManagent;
 			productName = MonthlyMoneyManagent;
-			productReference = F79DB73F24845C1800AAAF95 /* MonthlyMoneyManagent.app */;
+			productReference = F79DB73F24845C1800AAAF95 /* MMM.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F79DB75724845C1E00AAAF95 /* MonthlyMoneyManagentTests */ = {
@@ -443,12 +443,14 @@
 				DEVELOPMENT_TEAM = NPYQUSVT5P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MonthlyMoneyManagent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.D3Labs.MonthlyMoneyManagent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MMM;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,12 +465,14 @@
 				DEVELOPMENT_TEAM = NPYQUSVT5P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MonthlyMoneyManagent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.D3Labs.MonthlyMoneyManagent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MMM;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
