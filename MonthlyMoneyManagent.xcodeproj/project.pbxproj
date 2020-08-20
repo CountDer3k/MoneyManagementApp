@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76662BD24EED59F00BF01A5 /* Example.png in Resources */ = {isa = PBXBuildFile; fileRef = F76662BC24EED59F00BF01A5 /* Example.png */; };
 		F79DB74324845C1800AAAF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DB74224845C1800AAAF95 /* AppDelegate.swift */; };
 		F79DB74524845C1800AAAF95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79DB74424845C1800AAAF95 /* SceneDelegate.swift */; };
 		F79DB74824845C1800AAAF95 /* MonthlyMoneyManagent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F79DB74624845C1800AAAF95 /* MonthlyMoneyManagent.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F76662BC24EED59F00BF01A5 /* Example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Example.png; sourceTree = "<group>"; };
 		F79DB73F24845C1800AAAF95 /* MMM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79DB74224845C1800AAAF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F79DB74424845C1800AAAF95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		F79DB73624845C1700AAAF95 = {
 			isa = PBXGroup;
 			children = (
+				F76662BC24EED59F00BF01A5 /* Example.png */,
 				F79DB74124845C1800AAAF95 /* MonthlyMoneyManagent */,
 				F79DB75B24845C1E00AAAF95 /* MonthlyMoneyManagentTests */,
 				F79DB76624845C1E00AAAF95 /* MonthlyMoneyManagentUITests */,
@@ -245,6 +248,7 @@
 			files = (
 				F79DB75224845C1E00AAAF95 /* LaunchScreen.storyboard in Resources */,
 				F79DB74F24845C1E00AAAF95 /* Preview Assets.xcassets in Resources */,
+				F76662BD24EED59F00BF01A5 /* Example.png in Resources */,
 				F79DB74C24845C1E00AAAF95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
